@@ -1,0 +1,12 @@
+matplotlib==3.4.3
+numpy==1.19.5
+onnx==1.10.1
+onnxruntime==1.8.1
+torch==1.9.0
+torchvision==0.10.0
+tqdm==4.51.0
+sklearn
+jupyter
+seaborn
+git+https://github.com/aleju/imgaug.git
+scikit-image
