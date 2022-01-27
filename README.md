@@ -67,7 +67,7 @@ Please note that depending on the number of images and the complexity of the opt
 
 We performed the experiments in our paper with default parameters on the first 10,000 samples from the [ImageNet](https://image-net.org/download.php) test split and used the [Stanford Dogs](http://vision.stanford.edu/aditya86/ImageNetDogs/) dataset to compute the surrogate hash database. Both datasets overlap in two images, which we then removed from the results to avoid biases.
 
-To create images with our StyleGAN2-based approach, first clone the[stylegan2-ada-pytorch](https://github.com/NVlabs/stylegan2-ada-pytorch) repo into the project root with 
+To create images with our StyleGAN2-based approach, first clone the [stylegan2-ada-pytorch](https://github.com/NVlabs/stylegan2-ada-pytorch) repo into the project root with 
 ```bash
 git clone https://github.com/NVlabs/stylegan2-ada-pytorch
 ```
