@@ -146,13 +146,11 @@ To evaluate the results, please run the ```adv4_evaluation.ipynb``` notebook.
 ## Citation
 If you build upon our work, please don't forget to cite us.
 ```
-@misc{struppek2021learning,
+@inproceedings{struppek2022facct,
       title={Learning to Break Deep Perceptual Hashing: The Use Case NeuralHash}, 
       author={Lukas Struppek and Dominik Hintersdorf and Daniel Neider and Kristian Kersting},
-      year={2021},
-      eprint={2111.06628},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+      year={2022},
+      booktitle={Proceedings of the ACM Conference on Fairness, Accountability, and Transparency (FAccT)} 
 }
 ```
 
