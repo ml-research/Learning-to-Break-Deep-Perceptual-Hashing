@@ -6,12 +6,13 @@
 # dataset folderes
 data/
 hash_datasets/
-dataset_hashes/imagenette/
-dataset_hashes/imagenet_test/
-dataset_hashes/imagenet_train/
-dataset_hashes/imagenet_val/
+dataset_hashes/
 wandb/
 pretrained_models/
+collision_attack_outputs/
+models/coreml_model/
+models/model.onnx
+models/model.pth
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
