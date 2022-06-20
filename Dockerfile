@@ -10,6 +10,7 @@ WORKDIR /code
 
 COPY requirements.txt .
 
+RUN apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/3bf863cc.pub
 RUN addgroup --gid $GROUP_ID user
 RUN adduser --disabled-password --gecos '' --uid $USER_ID --gid $GROUP_ID user
 RUN apt-get update && apt-get -y upgrade && apt-get -y install git nano
