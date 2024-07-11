@@ -202,7 +202,7 @@ def main():
                         f'Finishing after {i+1} steps - L2 distance: {l2_distance:.4f} - L-Inf distance: {linf_distance:.4f} - SSIM: {ssim_distance:.4f}')
 
                     logger_data = [img, optimized_file + '.png', l2_distance.item(),
-                                   linf_distance.item(), ssim_distance.item(), (i*args.max_pixels) + j+1, target_loss.item(), i+1]
+                                   linf_distance.item(), ssim_distance.item(), (i*args.steps) + j+1, target_loss.item(), i+1]
                     logger.add_line(logger_data)
                     break
             if source_hash_hex != unmodified_hash_hex:
